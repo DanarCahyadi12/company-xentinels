@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="input-time">
+            <label>Input second: </label><input type="number" class="inputSec" value="0" min="0" max="60">
+            <label>Input minute   :</label><input type="number" class="inputMin" value="0" min="0" max="60">
+            <label>Input hour:</label><input type="number" class="inputHour" value="0" min="0" max="23">
+        </div>
+
+        <div class="time">
+            <h2>00:00:00</h2>
+        </div>
+        <div class="container-progress">
+            <div class="progress">.</div>
+        </div>
+        <div class="controls">
+            <button class="startPause">Start</button>
+            <button class="resetBtn">Reset</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
